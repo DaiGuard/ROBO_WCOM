@@ -38,7 +38,8 @@ namespace ROBO_WCOM
     /**
      * @brief 受信バッファの最大保持パケット数
      */
-    constexpr size_t RECEIVE_BUFFER_SIZE   = 64;
+    // constexpr size_t RECEIVE_BUFFER_SIZE   = 64;
+    constexpr size_t RECEIVE_BUFFER_SIZE   = 8;
 
     /**
      * @brief 通信パケットのデータ部構造
